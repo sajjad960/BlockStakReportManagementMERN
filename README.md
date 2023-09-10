@@ -1,7 +1,7 @@
 # Overview
 Report Management System
 - For given task I built this application, implemented user actions services, admin actions services and also genarated refresh token.
-<br>
+
 ## Technology used
 - Nodejs (version - v16.20.1)
 - MongoDB (version - 6.0.9)
