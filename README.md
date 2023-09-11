@@ -79,11 +79,9 @@ folder location (seed/postman_data)
       "email": "sajjad@gmail.com",
       "password": "sajjad5522",
     }
-  ```
+    ```
 
-  Note: 
-    (1) After login , you will get token into response(json), and you can also set it into environment variable (token).
-    (2) For login as a admin, please use admin login credential, and you can also set the token into enviroment variable (admintoken)
+  Note: (1) After login , you will get token into response(json), and you can also set it into environment variable (token). (2) For login as a admin, please use admin login credential, and you can also set the token into enviroment variable (admintoken)
 
   - Genarate Refresh Token
     - GET `/api/v1/users/refresh-token`
