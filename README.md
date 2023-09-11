@@ -81,7 +81,7 @@ folder location (seed/postman_data)
     }
   ```
 
-    Note: 
+  Note: 
     (1) After login , you will get token into response(json), and you can also set it into environment variable (token).
     (2) For login as a admin, please use admin login credential, and you can also set the token into enviroment variable (admintoken)
 
