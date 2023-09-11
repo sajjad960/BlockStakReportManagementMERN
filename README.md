@@ -48,8 +48,7 @@ node seed/data/import-data.js  --import
 ## API's
 
 - Please import Postman collection and Postman environment for test api through Postman.
-
-* folder location (seed/postman_data)
+folder location (seed/postman_data)
 
 * Auth
 
