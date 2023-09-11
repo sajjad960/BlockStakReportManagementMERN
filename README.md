@@ -53,36 +53,57 @@ folder location (seed/postman_data)
 * Auth
 
   - Sign up
-  - POST `/api/v1/users`
-  - request body:
+    - POST `/api/v1/users`
+    - request body:
 
-  ```js
-  {
-    "name": "sajjad",
-    "phone": "01650103297",
-    "address": "mahammadpur",
-    "profession": "full stack developer",
-    "favoriteColors": ["black", "blue"],
-    "email": "sajjad@gmail.com",
-    "password": "sajjad5522",
-    "passwordConfirm": "sajjad5522"
-  }
-  ```
+    ```js
+    {
+      "name": "sajjad",
+      "phone": "01650103297",
+      "address": "mahammadpur",
+      "profession": "full stack developer",
+      "favoriteColors": ["black", "blue"],
+      "email": "sajjad@gmail.com",
+      "password": "sajjad5522",
+      "passwordConfirm": "sajjad5522"
+    }
+    ```
 
   Note: you can also use your credential, by default all register role will be `user`
 
   - Sign in
-  - POST `/api/v1/users`
-  - request body:
-  ```js
-  {
-    "email": "sajjad@gmail.com",
-    "password": "sajjad5522",
-  }
+    - POST `/api/v1/users`
+    - request body:
+    ```js
+    {
+      "email": "sajjad@gmail.com",
+      "password": "sajjad5522",
+    }
   ```
 
   Note: <br>(1) After login , you will get token, and you can also set it into environment variable (token). 
         <br>(2) For login as a admin, please use admin login credential, and you can also set it into enviroment variable (admintoken)
 
 * Reports
+  - List of Reports:
+    - GET `/api/v1/reports`
+    - pass `token` as authorization header.
+  - Add new Report:
+    - POST `/api/v1/reports`
+    - pass `admintoken` as authorization header.
+  - Update Report:
+    - PATCH `/api/v1/reports/:id`
+    - pass `admintoken` as authorization header.
+  - Delete Report:
+    - Delete `/api/v1/reports/:id`
+    - pass `admintoken` as authorization header.
+  
+
+
+
+
+
+
+
+
 
