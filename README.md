@@ -47,7 +47,7 @@ node seed/data/import-data.js  --import
 
 ## API's
 
-- Please import Postman collection and Postman environment for test api through Postman.
+- ✴️ Please import Postman collection and Postman environment for test api through Postman. <br>
 folder location (seed/postman_data)
 
 * Auth
@@ -84,11 +84,13 @@ folder location (seed/postman_data)
 
     Note: You can also use your credentials.
 
-    Setup Environment Token: <br>(1) After login , you will get token into response(json), and you can also set it into environment variable (token). <br>(2) For login as a admin, please use admin login credential, and you can also set the token into enviroment variable (admintoken)
+    - Setup Environment Token: <br>(1) After login , you will get token into response(json), and you can also set it into environment variable (token). <br>(2) For login as a admin, please use admin login credential, and you can also set the token into enviroment variable (admintoken)
 
   - Genarate Refresh Token
     - GET `/api/v1/users/refresh-token`
     - pass `token` as authorization header.
+
+    Note: You can genarate new token with both (expired and non-expired) token.
 
 
 
